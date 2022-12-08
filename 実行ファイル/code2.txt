@@ -1,0 +1,11 @@
+ID,command,next_ID_yes,next_ID_no
+0,start,1,0
+1,right,2,0
+2,if_wall,3,8
+3,left,4,0
+4,if_wall,5,9
+5,left,6,0
+6,put,7,0
+7,go,1,0
+8,if_front_marker,3,7
+9,if_front_marker,5,7

@@ -6,7 +6,7 @@
 #define explanation_mode 1
 #define load_script_mode 0
 int WINAPI WinMain(HINSTANCE,HINSTANCE,LPSTR,int){
-	int mode = load_script_mode;	//explanation_mode：解説用アルゴリズムのアニメーションを実行するモード
+	int mode = explanation_mode;	//explanation_mode：解説用アルゴリズムのアニメーションを実行するモード
 									//load_script_mode：外部テキストファイルに書かれた自作スクリプト言語を読み、
 														//読み込んだアルゴリズムを実行するモード
 	SetBackgroundColor(255,255,255);
