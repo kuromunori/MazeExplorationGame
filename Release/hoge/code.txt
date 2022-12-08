@@ -1,0 +1,7 @@
+﻿ignore_this_line
+0,start,1,0
+1,if_marker,2,3
+2,pop,4,0
+3,put,5,0
+5,right,4,0
+4,go,1,0

@@ -1,0 +1,13 @@
+ignore_this_line
+0,start,1,0
+1,if_wall,2,3
+2,left,1,0
+3,go,4,0
+4,left,5,0
+5,if_wall,6,7
+6,left,8,0
+8,left,1,0
+7,go,9,0
+9,left,10,0
+10,left,11,0
+11,go,1,0
