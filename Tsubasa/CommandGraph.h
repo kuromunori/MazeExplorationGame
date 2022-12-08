@@ -99,7 +99,7 @@ public:
 			else if (com_name == "if_north") {
 				com_type = 8;
 			}
-			else if (com_name == "if_sauth") {
+			else if (com_name == "if_south") {
 				com_type = 9;
 			}
 			else if (com_name == "if_wall") {

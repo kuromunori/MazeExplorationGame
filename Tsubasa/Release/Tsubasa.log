@@ -1,4 +1,6 @@
-﻿  main.cpp
+﻿  Input.cpp
+  LangtonsAnt.cpp
+  main.cpp
 C:\Users\tkimu\Documents\Visual Studio 2015\Projects\Tsubasa\Tsubasa\HanchoRobotCommand.h(135,11): warning C4305: 'return': 'int' から 'bool' へ切り詰めます。
 C:\Users\tkimu\Documents\Visual Studio 2015\Projects\Tsubasa\Tsubasa\HanchoRobotCommand.h(233,66): warning C4244: '引数': 'double' から 'int' への変換です。データが失われる可能性があります。
 C:\Users\tkimu\Documents\Visual Studio 2015\Projects\Tsubasa\Tsubasa\HanchoRobotCommand.h(233,57): warning C4244: '引数': 'double' から 'int' への変換です。データが失われる可能性があります。
@@ -53,7 +55,7 @@ C:\Users\tkimu\Documents\Visual Studio 2015\Projects\Tsubasa\Tsubasa\HanchoRobot
 C:\Users\tkimu\Documents\Visual Studio 2015\Projects\Tsubasa\Tsubasa\HanchoRobotCommand.h(379,19): warning C4244: '引数': 'double' から 'int' への変換です。データが失われる可能性があります。
 C:\Users\tkimu\Documents\Visual Studio 2015\Projects\Tsubasa\Tsubasa\CommandGraph.h(68,11): warning C4129: 's': エスケープ シーケンスとして正しく認識されませんでした。
   コード生成しています。
-  1 of 483 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+  0 of 483 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
     0 functions had inline decision re-evaluated but remain unchanged
   コード生成が終了しました。
