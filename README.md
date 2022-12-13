@@ -57,11 +57,11 @@ __お題：10×10マスの迷路内に存在する、5つの☆マスのうち3�
 ### 1. Visual Studio 2022をインストール
 ### 2. モードを指定してコンパイル
 
-#### 方法0. Tsubasa.slnをVisual Studio 2022で開く
+#### 方法0. MazeExplorationGame.slnをVisual Studio 2022で開く
 ![説明1](https://user-images.githubusercontent.com/18481351/206540092-7dbd6595-e1dc-4c4e-9164-5b0fc016c31e.png)
 
 #### 方法1. main.cppを開き、9行目のmodeをexplanation_modeとload_script_modeから選択
-それぞれ、「実行ファイル/Explanation.exe」と「実行ファイル/LoadScript.exe」に対応するプログラムが「Release/Tsubasa.exe」として生成されます。
+それぞれ、「実行ファイル/Explanation.exe」と「実行ファイル/LoadScript.exe」に対応するプログラムが「Release/MazeExplorationGame.exe」として生成されます。
 #### 方法2. Releaseになっていることを確認し、実行ボタンを押す
 
 
@@ -70,13 +70,13 @@ __お題：10×10マスの迷路内に存在する、5つの☆マスのうち3�
 <pre>
 リポジトリTOP
 │
-├ Tsubasa.sln .. Visual Studio 用のSolutionファイル
+├ MazeExplorationGame.sln .. Visual Studio 用のSolutionファイル
 │
 ├ DxLib .. コンパイル用に再配布したDXライブラリ
 │
-├ Tsubasa ..　作業ディレクトリ
+├ MazeExplorationGame ..　作業ディレクトリ
 │　├ CommandGraph.h  .. 自作スクリプト言語を読み込む用のプログラム【自作】
-│　├ HanchoRobotCommand.h .. ロボットおよび盤面を更新するためのプログラム【自作】
+│　├ ControlRobot.h .. ロボットおよび盤面を更新するためのプログラム【自作】
 │　├ main.cpp .. 大元の呼び出しプログラム【自作】
 │　└ Input.h, Input.cpp .. キー入力受付用のプログラム 【テンプレを流用】
 │　 
@@ -89,9 +89,9 @@ __お題：10×10マスの迷路内に存在する、5つの☆マスのうち3�
 ├ スライド等 ..　解説用のパワーポイントやスライド置き場
 │　├ 迷路探査ゲーム　ルール説明.pptx .. ゲームの詳細なルールやコマンドの説明
 │　├ コマンド一覧.pdf .. コマンドの一覧
-│　├ 自作スクリプト言語の書き方.pptx .. フローチャート→スクリプト言語への変換方法
-│　├ アルゴリズム紹介.pptx .. 実行ファイル/code.txt および code2.txtのアルゴリズムの紹介
-│　└ 解説.pptx .. 模範解答に至るまでの解説
+│　├ 自作スクリプト言語の書き方.pdf .. フローチャート→スクリプト言語への変換方法
+│　├ アルゴリズム紹介.pdf .. 実行ファイル/code.txt および code2.txtのアルゴリズムの紹介
+│　└ 解説.pdf .. 模範解答に至るまでの解説
 </pre>
 
 ## こだわりポイント
